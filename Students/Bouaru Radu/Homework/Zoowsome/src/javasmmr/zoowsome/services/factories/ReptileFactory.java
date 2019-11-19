@@ -17,13 +17,16 @@ public class ReptileFactory extends SpeciesFactory {
 		Random randomizer = new Random();
 		int chooseName = randomizer.nextInt(reptileNames.length);
 		boolean chooseEggsLayed = randomizer.nextBoolean();
+		
+		double chooseMaintenanceCost = 8 * randomizer.nextDouble();
+		double chooseDangerPerc = randomizer.nextDouble();
 
 		if (Constants.Animals.Reptiles.Dinosaur.equals(type)) {
-			return new Dinosaur(4, reptileNames[chooseName], chooseEggsLayed);
+			return new Dinosaur(4, reptileNames[chooseName], chooseEggsLayed, chooseMaintenanceCost, chooseDangerPerc);
 		} else if (Constants.Animals.Reptiles.Snake.equals(type)) {
-			return new Snake(0, reptileNames[chooseName], chooseEggsLayed);
+			return new Snake(0, reptileNames[chooseName], chooseEggsLayed, chooseMaintenanceCost, chooseDangerPerc);
 		} else if (Constants.Animals.Reptiles.Tortoise.contentEquals(type)) {
-			return new Tortoise(4, reptileNames[chooseName], chooseEggsLayed);
+			return new Tortoise(4, reptileNames[chooseName], chooseEggsLayed, chooseMaintenanceCost, chooseDangerPerc);
 		} else
 			throw new Exception("Invalid animal exception!");
 	}

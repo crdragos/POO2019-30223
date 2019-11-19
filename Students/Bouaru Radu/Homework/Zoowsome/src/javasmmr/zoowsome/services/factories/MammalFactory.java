@@ -17,13 +17,16 @@ public class MammalFactory extends SpeciesFactory {
 		int chooseName = randomizer.nextInt(mammalNames.length);
 		float chooseBodyTemperature = 100 * randomizer.nextFloat();
 		float chooseBodyHairPercent = 100 * randomizer.nextFloat();
+		
+		double chooseMaintenanceCost = 8 * randomizer.nextDouble();
+		double chooseDangerPerc = randomizer.nextDouble();
 
 		if (Constants.Animals.Mammals.Cow.equals(type)) {
-			return new Cow(4, mammalNames[chooseName], chooseBodyTemperature, chooseBodyHairPercent);
+			return new Cow(4, mammalNames[chooseName], chooseBodyTemperature, chooseBodyHairPercent, chooseMaintenanceCost, chooseDangerPerc);
 		} else if (Constants.Animals.Mammals.Monkey.equals(type)) {
-			return new Monkey(2, mammalNames[chooseName], chooseBodyTemperature, chooseBodyHairPercent);
+			return new Monkey(2, mammalNames[chooseName], chooseBodyTemperature, chooseBodyHairPercent, chooseMaintenanceCost, chooseDangerPerc);
 		} else if (Constants.Animals.Mammals.Tiger.contentEquals(type)) {
-			return new Tiger(4, mammalNames[chooseName], chooseBodyTemperature, chooseBodyHairPercent);
+			return new Tiger(4, mammalNames[chooseName], chooseBodyTemperature, chooseBodyHairPercent, chooseMaintenanceCost, chooseDangerPerc);
 		} else
 			throw new Exception("Invalid animal exception!");
 	}

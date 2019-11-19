@@ -5,8 +5,8 @@ public abstract class Mammal extends Animal {
 	private float normalBodyTemp;
 	private float percBodyHair;
 
-	public Mammal(Integer nrOfLegs, String name, float normalBodyTemp, float percBodyHair) {
-		super(nrOfLegs, name);
+	public Mammal(Integer nrOfLegs, String name, float normalBodyTemp, float percBodyHair, double maintenanceCost, double dangerPerc) {
+		super(nrOfLegs, name, maintenanceCost, dangerPerc);
 		this.normalBodyTemp = normalBodyTemp;
 		this.percBodyHair = percBodyHair;
 	}

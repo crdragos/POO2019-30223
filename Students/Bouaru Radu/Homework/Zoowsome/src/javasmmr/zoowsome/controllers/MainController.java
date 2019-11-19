@@ -2,14 +2,16 @@ package javasmmr.zoowsome.controllers;
 
 import java.util.Random;
 
-import javasmmr.zoowsome.models.animals.Animal;
 import javasmmr.zoowsome.models.animals.Aquatic;
 import javasmmr.zoowsome.models.animals.Bird;
 import javasmmr.zoowsome.models.animals.Insect;
 import javasmmr.zoowsome.models.animals.Mammal;
 import javasmmr.zoowsome.models.animals.Reptile;
+import javasmmr.zoowsome.models.employees.Caretaker;
 import javasmmr.zoowsome.services.factories.AnimalFactory;
 import javasmmr.zoowsome.services.factories.Constants;
+import javasmmr.zoowsome.services.factories.EmployeeAbstractFactory;
+import javasmmr.zoowsome.services.factories.EmployeeFactory;
 import javasmmr.zoowsome.services.factories.SpeciesFactory;
 
 public class MainController {
@@ -30,7 +32,7 @@ public class MainController {
 		Reptile[] myReptiles = new Reptile[50];
 		Insect[] myInsects = new Insect[50];
 
-		int animalCounter = 50;
+		int animalCounter = 100;
 
 		int mammalCounter = 0;
 		int birdCounter = 0;
@@ -95,13 +97,95 @@ public class MainController {
 
 		}
 
-		for (int i = 0; i < insectCounter; i++)
-			if (myInsects[i].getName() == "Chris Evans")
-				System.out.printf("%s - Wait, this is not SpiderMan, therefore not an insect!!\n",
-						myInsects[i].getName()); // see InsectFactory class :)
+		/*
+		 * for (int i = 0; i < insectCounter; i++) if (myInsects[i].getName() ==
+		 * "Chris Evans") System.out.
+		 * printf("%s - Wait, this is not SpiderMan, therefore not an insect!!\n",
+		 * myInsects[i].getName()); // see InsectFactory class :) else
+		 * System.out.printf("Hello! My name is %s. Do you ask if I am dangerous? %s\n",
+		 * myInsects[i].getName(), myInsects[i].isDangerous());
+		 */
+		EmployeeFactory abstractEmployeeFactory = new EmployeeFactory();
+		EmployeeAbstractFactory employeeFactory1 = abstractEmployeeFactory
+				.getEmployeeFactory(Constants.EmployeeTypes.Caretaker);
+		Caretaker myCaretakers[] = new Caretaker[100];
+
+		for (int i = 0; i < myCaretakers.length; i++) {
+			myCaretakers[i] = (Caretaker) employeeFactory1.getEmployeeFactory(Constants.EmployeeTypes.Caretaker);
+		}
+		for (int i = 0; i < 10; i++) {
+			for (int m = 0; m < mammalCounter; m++) {
+				if ((myCaretakers[i].isDead() == false) && myMammals[m].isTakenCareOf() == false) {
+					String result = myCaretakers[i].takeCareOf(myMammals[m]);
+					if (result.equals(Constants.Employees.Caretakers.TCO_KILLED)) {
+						myCaretakers[i].setDead(true);
+					} else if (result.equals(Constants.Employees.Caretakers.TCO_NO_TIME)) {
+						m++;
+					} else
+						myMammals[m].setTakenCareOf(true);
+				}
+			}
+			for (int m = 0; m < insectCounter; m++) {
+				if ((myCaretakers[i].isDead() == false) && myInsects[m].isTakenCareOf() == false) {
+					String result = myCaretakers[i].takeCareOf(myInsects[m]);
+					if (result.equals(Constants.Employees.Caretakers.TCO_KILLED)) {
+						myCaretakers[i].setDead(true);
+					} else if (result.equals(Constants.Employees.Caretakers.TCO_NO_TIME)) {
+						m++;
+					} else
+						myInsects[m].setTakenCareOf(true);
+				}
+			}
+			for (int m = 0; m < aquaticCounter; m++) {
+				if ((myCaretakers[i].isDead() == false) && myAquatics[m].isTakenCareOf() == false) {
+					String result = myCaretakers[i].takeCareOf(myAquatics[m]);
+					if (result.equals(Constants.Employees.Caretakers.TCO_KILLED)) {
+						myCaretakers[i].setDead(true);
+					} else if (result.equals(Constants.Employees.Caretakers.TCO_NO_TIME)) {
+						m++;
+					} else
+						myAquatics[m].setTakenCareOf(true);
+				}
+			}
+			for (int m = 0; m < birdCounter; m++) {
+				if ((myCaretakers[i].isDead() == false) && myBirds[m].isTakenCareOf() == false) {
+					String result = myCaretakers[i].takeCareOf(myBirds[m]);
+					if (result.equals(Constants.Employees.Caretakers.TCO_KILLED)) {
+						myCaretakers[i].setDead(true);
+					} else if (result.equals(Constants.Employees.Caretakers.TCO_NO_TIME)) {
+						m++;
+					} else
+						myBirds[m].setTakenCareOf(true);
+				}
+			}
+			for (int m = 0; m < reptileCounter; m++) {
+				if ((myCaretakers[i].isDead() == false) && myReptiles[m].isTakenCareOf() == false) {
+					String result = myCaretakers[i].takeCareOf(myReptiles[m]);
+					if (result.equals(Constants.Employees.Caretakers.TCO_KILLED)) {
+						myCaretakers[i].setDead(true);
+					} else if (result.equals(Constants.Employees.Caretakers.TCO_NO_TIME)) {
+						m++;
+					} else
+						myReptiles[m].setTakenCareOf(true);
+				}
+			}
+		}
+
+		for (int i = 0; i < mammalCounter; i++)
+
+			if (myMammals[i].isTakenCareOf() == true)
+				System.out.println("It has been taken care of animal #" + i + ", " + myMammals[i].getName());
 			else
-				System.out.printf("Hello! My name is %s. Do you ask if I am dangerous? %s\n", myInsects[i].getName(),
-						myInsects[i].isDangerous());
+				System.out.println("It has NOT been taken care of animal #" + i + ", " + myMammals[i].getName());
+
+	
+		System.out.println();
+
+		for (int i = 0; i < myCaretakers.length; i++)
+			if (myCaretakers[i].isDead() == true)
+				System.out.println("Oh no! " + myCaretakers[i].getName() + " is dead!");
+			else
+				System.out.println(myCaretakers[i].getName() + " is still alive.");
 
 	}
 

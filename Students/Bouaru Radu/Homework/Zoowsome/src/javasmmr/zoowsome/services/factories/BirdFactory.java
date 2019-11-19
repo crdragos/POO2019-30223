@@ -20,13 +20,16 @@ public class BirdFactory extends SpeciesFactory {
 		int chooseName = randomizer.nextInt(birdNames.length);
 		boolean chooseMigratingState = randomizer.nextBoolean();
 		int chooseFlightAltitude = randomizer.nextInt(10000);
+		
+		double chooseMaintenanceCost = 8 * randomizer.nextDouble();
+		double chooseDangerPerc = randomizer.nextDouble();
 
 		if (Constants.Animals.Birds.Gryphon.equals(type)) {
-			return new Gryphon(4, birdNames[chooseName], chooseMigratingState, chooseFlightAltitude);
+			return new Gryphon(4, birdNames[chooseName], chooseMigratingState, chooseFlightAltitude, chooseMaintenanceCost, chooseDangerPerc);
 		} else if (Constants.Animals.Birds.Peacock.equals(type)) {
-			return new Peacock(2, birdNames[chooseName], chooseMigratingState, chooseFlightAltitude);
+			return new Peacock(2, birdNames[chooseName], chooseMigratingState, chooseFlightAltitude, chooseMaintenanceCost, chooseDangerPerc);
 		} else if (Constants.Animals.Birds.Phoenix.equals(type)) {
-			return new Phoenix(2, birdNames[chooseName], chooseMigratingState, chooseFlightAltitude);
+			return new Phoenix(2, birdNames[chooseName], chooseMigratingState, chooseFlightAltitude, chooseMaintenanceCost, chooseDangerPerc);
 		} else
 			throw new Exception("Invalid animal exception!");
 	}

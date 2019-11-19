@@ -10,8 +10,8 @@ public abstract class Aquatic extends Animal {
 
 	private waterType swimmingWater;
 
-	public Aquatic(Integer nrOfLegs, String name, Integer avgSwimDepth, waterType water) {
-		super(nrOfLegs, name);
+	public Aquatic(Integer nrOfLegs, String name, Integer avgSwimDepth, waterType water, double maintenanceCost, double dangerPerc) {
+		super(nrOfLegs, name, maintenanceCost, dangerPerc);
 		this.avgSwimDepth = avgSwimDepth;
 		this.swimmingWater = water;
 	}

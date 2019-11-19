@@ -20,13 +20,16 @@ public class InsectFactory extends SpeciesFactory {
 		int chooseSpiderName = randomizer.nextInt(spiderManNames.length);
 		boolean chooseFlightState = randomizer.nextBoolean();
 		boolean chooseDangerState = randomizer.nextBoolean();
+		
+		double chooseMaintenanceCost = 8 * randomizer.nextDouble();
+		double chooseDangerPerc = randomizer.nextDouble();
 
 		if (Constants.Animals.Insects.Mantis.equals(type)) {
-			return new Mantis(4, insectNames[chooseName], chooseFlightState, chooseDangerState);
+			return new Mantis(4, insectNames[chooseName], chooseFlightState, chooseDangerState, chooseMaintenanceCost, chooseDangerPerc);
 		} else if (Constants.Animals.Insects.SpiderMan.equals(type)) {
-			return new Spiderman(2, spiderManNames[chooseSpiderName], true, true);
+			return new Spiderman(2, spiderManNames[chooseSpiderName], true, true, chooseMaintenanceCost, chooseDangerPerc);
 		} else if (Constants.Animals.Insects.Wasp.contentEquals(type)) {
-			return new Wasp(4, insectNames[chooseName], chooseFlightState, chooseDangerState);
+			return new Wasp(4, insectNames[chooseName], chooseFlightState, chooseDangerState, chooseMaintenanceCost, chooseDangerPerc);
 		} else
 			throw new Exception("Invalid animal exception!");
 	}

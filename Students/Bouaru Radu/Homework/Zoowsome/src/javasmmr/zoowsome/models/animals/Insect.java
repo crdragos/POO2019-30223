@@ -4,8 +4,8 @@ public abstract class Insect extends Animal {
 	private boolean canFly;
 	private boolean isDangerous;
 
-	public Insect(Integer nrOfLegs, String name, boolean canFly, boolean isDangerous) {
-		super(nrOfLegs, name);
+	public Insect(Integer nrOfLegs, String name, boolean canFly, boolean isDangerous, double maintenanceCost, double dangerPerc) {
+		super(nrOfLegs, name, maintenanceCost, dangerPerc);
 		this.canFly = canFly;
 		this.isDangerous = isDangerous;
 	}
