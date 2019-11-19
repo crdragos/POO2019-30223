@@ -5,7 +5,7 @@ import java.math.BigDecimal;
 import javasmmr.zoowsome.models.animals.Animal;
 import javasmmr.zoowsome.services.factories.Constants;
 
-public class Caretaker extends Employee {
+public class Caretaker extends Employee implements Caretaker_I{
 
 	private double workingHours;
 
