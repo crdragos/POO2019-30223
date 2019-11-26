@@ -1,13 +1,19 @@
 package javasmmr.zoowsome.controllers;
 
+import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.Random;
 
+import javasmmr.zoowsome.models.animals.Animal;
 import javasmmr.zoowsome.models.animals.Aquatic;
 import javasmmr.zoowsome.models.animals.Bird;
 import javasmmr.zoowsome.models.animals.Insect;
 import javasmmr.zoowsome.models.animals.Mammal;
 import javasmmr.zoowsome.models.animals.Reptile;
 import javasmmr.zoowsome.models.employees.Caretaker;
+import javasmmr.zoowsome.models.employees.Employee;
+import javasmmr.zoowsome.repositories.AnimalRepository;
+import javasmmr.zoowsome.repositories.EmployeeRepository;
 import javasmmr.zoowsome.services.factories.AnimalFactory;
 import javasmmr.zoowsome.services.factories.Constants;
 import javasmmr.zoowsome.services.factories.EmployeeAbstractFactory;
@@ -32,7 +38,7 @@ public class MainController {
 		Reptile[] myReptiles = new Reptile[50];
 		Insect[] myInsects = new Insect[50];
 
-		int animalCounter = 100;
+		int animalCounter = 50;
 
 		int mammalCounter = 0;
 		int birdCounter = 0;
@@ -171,22 +177,55 @@ public class MainController {
 			}
 		}
 
+		/*
+		 * for (int i = 0; i < mammalCounter; i++)
+		 * 
+		 * if (myMammals[i].isTakenCareOf() == true)
+		 * System.out.println("It has been taken care of animal #" + i + ", " +
+		 * myMammals[i].getName()); else
+		 * System.out.println("It has NOT been taken care of animal #" + i + ", " +
+		 * myMammals[i].getName());
+		 * 
+		 * 
+		 * System.out.println();
+		 * 
+		 * for (int i = 0; i < myCaretakers.length; i++) if (myCaretakers[i].isDead() ==
+		 * true) System.out.println("Oh no! " + myCaretakers[i].getName() +
+		 * " is dead!"); else System.out.println(myCaretakers[i].getName() +
+		 * " is still alive.");
+		 */
+
+		AnimalRepository AnimalRepository = new AnimalRepository();
+		ArrayList<Animal> animalsToSave = new ArrayList<Animal>();
+
 		for (int i = 0; i < mammalCounter; i++)
+			animalsToSave.add(myMammals[i]);
+		for (int i = 0; i < birdCounter; i++)
+			animalsToSave.add(myBirds[i]);
+		for (int i = 0; i < reptileCounter; i++)
+			animalsToSave.add(myReptiles[i]);
+		for (int i = 0; i < aquaticCounter; i++)
+			animalsToSave.add(myAquatics[i]);
+		for (int i = 0; i < insectCounter; i++)
+			animalsToSave.add(myInsects[i]);
 
-			if (myMammals[i].isTakenCareOf() == true)
-				System.out.println("It has been taken care of animal #" + i + ", " + myMammals[i].getName());
-			else
-				System.out.println("It has NOT been taken care of animal #" + i + ", " + myMammals[i].getName());
+		AnimalRepository.save(animalsToSave);
 
-	
-		System.out.println();
+		ArrayList<Animal> animalsToLoad = new ArrayList<Animal>();
+		animalsToLoad = AnimalRepository.load();
+
+		EmployeeRepository EmployeeRepository = new EmployeeRepository();
+		ArrayList<Employee> employeesToSave = new ArrayList<Employee>();
 
 		for (int i = 0; i < myCaretakers.length; i++)
-			if (myCaretakers[i].isDead() == true)
-				System.out.println("Oh no! " + myCaretakers[i].getName() + " is dead!");
-			else
-				System.out.println(myCaretakers[i].getName() + " is still alive.");
+			employeesToSave.add(myCaretakers[i]);
 
+		EmployeeRepository.save(employeesToSave);
+
+		ArrayList<Employee> employeesToLoad = new ArrayList<Employee>();
+		employeesToLoad = EmployeeRepository.load();
+
+		System.out.println(employeesToLoad.size());
 	}
 
 }
