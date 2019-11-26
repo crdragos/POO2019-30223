@@ -1,4 +1,4 @@
-# Compiled class file
+
 
 .metadata
 
@@ -20,7 +20,6 @@ local.properties
 
 .loadpath
 
-.recommenders
 
 
 # Eclipse Core
@@ -96,7 +95,5 @@ local.properties
 
 
 # Code Recommenders
-
-.recommenders/
 
 
