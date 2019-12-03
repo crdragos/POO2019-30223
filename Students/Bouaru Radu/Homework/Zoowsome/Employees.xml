@@ -1,802 +1,802 @@
 <?xml version="1.0"?><content>
 <EMPLOYEE>
-	<id>1580072376924354007</id>
-	<name>Ulrich</name>
-	<salary>2000</salary>
-	<isDead>true</isDead>
-	<workingHours>3.6589629405994684</workingHours>
-	<DISCRIMINANT>Caretaker</DISCRIMINANT>
-</EMPLOYEE>
-<EMPLOYEE>
-	<id>3926846931944228162</id>
-	<name>Magnus</name>
-	<salary>5000</salary>
-	<isDead>true</isDead>
-	<workingHours>0.022083981996978697</workingHours>
-	<DISCRIMINANT>Caretaker</DISCRIMINANT>
-</EMPLOYEE>
-<EMPLOYEE>
-	<id>89633551314645989</id>
+	<id>188919752764475439</id>
 	<name>Noah</name>
+	<salary>4000</salary>
+	<isDead>true</isDead>
+	<workingHours>2.0780617380349953</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<id>4574301389330883065</id>
+	<name>Ulrich</name>
 	<salary>3000</salary>
 	<isDead>true</isDead>
-	<workingHours>0.5159763048800716</workingHours>
+	<workingHours>4.725808149700206</workingHours>
 	<DISCRIMINANT>Caretaker</DISCRIMINANT>
 </EMPLOYEE>
 <EMPLOYEE>
-	<id>2798986533249693895</id>
-	<name>Adam</name>
-	<salary>3000</salary>
-	<isDead>true</isDead>
-	<workingHours>1.701367711305134</workingHours>
-	<DISCRIMINANT>Caretaker</DISCRIMINANT>
-</EMPLOYEE>
-<EMPLOYEE>
-	<id>2185589786842687602</id>
-	<name>Noah</name>
-	<salary>2000</salary>
-	<isDead>true</isDead>
-	<workingHours>1.876165304491547</workingHours>
-	<DISCRIMINANT>Caretaker</DISCRIMINANT>
-</EMPLOYEE>
-<EMPLOYEE>
-	<id>3217506859146630213</id>
-	<name>Noah</name>
-	<salary>2000</salary>
-	<isDead>true</isDead>
-	<workingHours>6.892230838410524</workingHours>
-	<DISCRIMINANT>Caretaker</DISCRIMINANT>
-</EMPLOYEE>
-<EMPLOYEE>
-	<id>583381331908111798</id>
+	<id>2254972840409391900</id>
 	<name>Jonas</name>
-	<salary>3000</salary>
+	<salary>4000</salary>
 	<isDead>true</isDead>
-	<workingHours>0.24758935280114525</workingHours>
+	<workingHours>9.512537743887512</workingHours>
 	<DISCRIMINANT>Caretaker</DISCRIMINANT>
 </EMPLOYEE>
 <EMPLOYEE>
-	<id>3746468689601234896</id>
+	<id>4346112269663062297</id>
 	<name>Jonas</name>
+	<salary>4000</salary>
+	<isDead>true</isDead>
+	<workingHours>8.011802673750555</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<id>2317776061242779025</id>
+	<name>Mads</name>
 	<salary>5000</salary>
 	<isDead>true</isDead>
-	<workingHours>8.08657582078964</workingHours>
+	<workingHours>4.830461304779515</workingHours>
 	<DISCRIMINANT>Caretaker</DISCRIMINANT>
 </EMPLOYEE>
 <EMPLOYEE>
-	<id>3698253164166957184</id>
-	<name>Ulrich</name>
-	<salary>5000</salary>
+	<id>1564376965997735223</id>
+	<name>Magnus</name>
+	<salary>2000</salary>
 	<isDead>true</isDead>
-	<workingHours>0.24819948422794536</workingHours>
+	<workingHours>5.603406655588447</workingHours>
 	<DISCRIMINANT>Caretaker</DISCRIMINANT>
 </EMPLOYEE>
 <EMPLOYEE>
-	<id>449564115152286882</id>
-	<name>Jonas</name>
-	<salary>5000</salary>
+	<id>4312237337045267826</id>
+	<name>Ulrich</name>
+	<salary>3000</salary>
 	<isDead>true</isDead>
-	<workingHours>2.162512036639479</workingHours>
+	<workingHours>5.2251164711383975</workingHours>
 	<DISCRIMINANT>Caretaker</DISCRIMINANT>
 </EMPLOYEE>
 <EMPLOYEE>
-	<id>4515768824971258264</id>
-	<name>Jonas</name>
-	<salary>2000</salary>
-	<isDead>false</isDead>
-	<workingHours>8.551887957828479</workingHours>
-	<DISCRIMINANT>Caretaker</DISCRIMINANT>
-</EMPLOYEE>
-<EMPLOYEE>
-	<id>1307224859930660319</id>
-	<name>Magnus</name>
+	<id>4372178764300790709</id>
+	<name>Adam</name>
 	<salary>1000</salary>
-	<isDead>false</isDead>
-	<workingHours>4.348763598742817</workingHours>
+	<isDead>true</isDead>
+	<workingHours>2.250617376710944</workingHours>
 	<DISCRIMINANT>Caretaker</DISCRIMINANT>
 </EMPLOYEE>
 <EMPLOYEE>
-	<id>2514784827886898144</id>
+	<id>4178720352553295865</id>
 	<name>Magnus</name>
+	<salary>3000</salary>
+	<isDead>true</isDead>
+	<workingHours>9.045906237807454</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<id>435001895948990331</id>
+	<name>Jonas</name>
+	<salary>4000</salary>
+	<isDead>true</isDead>
+	<workingHours>1.426126589800819</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<id>2937268210649112045</id>
+	<name>Noah</name>
 	<salary>4000</salary>
 	<isDead>false</isDead>
-	<workingHours>4.455172703224772</workingHours>
+	<workingHours>3.866033803308493</workingHours>
 	<DISCRIMINANT>Caretaker</DISCRIMINANT>
 </EMPLOYEE>
 <EMPLOYEE>
-	<id>2032559426036044082</id>
-	<name>Jonas</name>
-	<salary>3000</salary>
-	<isDead>false</isDead>
-	<workingHours>9.363496932372117</workingHours>
-	<DISCRIMINANT>Caretaker</DISCRIMINANT>
-</EMPLOYEE>
-<EMPLOYEE>
-	<id>345630202348163297</id>
-	<name>Noah</name>
-	<salary>3000</salary>
-	<isDead>false</isDead>
-	<workingHours>7.0400919015058525</workingHours>
-	<DISCRIMINANT>Caretaker</DISCRIMINANT>
-</EMPLOYEE>
-<EMPLOYEE>
-	<id>3976308961005014807</id>
+	<id>1126963505580270896</id>
 	<name>Noah</name>
 	<salary>1000</salary>
 	<isDead>false</isDead>
-	<workingHours>6.8008191420704165</workingHours>
+	<workingHours>2.4857332791497733</workingHours>
 	<DISCRIMINANT>Caretaker</DISCRIMINANT>
 </EMPLOYEE>
 <EMPLOYEE>
-	<id>1529963467406392102</id>
-	<name>Adam</name>
+	<id>2778954214862806948</id>
+	<name>Noah</name>
 	<salary>4000</salary>
 	<isDead>false</isDead>
-	<workingHours>6.056042877909578</workingHours>
+	<workingHours>7.595604204193455</workingHours>
 	<DISCRIMINANT>Caretaker</DISCRIMINANT>
 </EMPLOYEE>
 <EMPLOYEE>
-	<id>2293447420367952604</id>
-	<name>Magnus</name>
-	<salary>4000</salary>
-	<isDead>false</isDead>
-	<workingHours>2.0898533055877486</workingHours>
-	<DISCRIMINANT>Caretaker</DISCRIMINANT>
-</EMPLOYEE>
-<EMPLOYEE>
-	<id>2341627468904058465</id>
-	<name>Mads</name>
-	<salary>2000</salary>
-	<isDead>false</isDead>
-	<workingHours>6.638740235533769</workingHours>
-	<DISCRIMINANT>Caretaker</DISCRIMINANT>
-</EMPLOYEE>
-<EMPLOYEE>
-	<id>1521433272693658203</id>
+	<id>3763664710060334872</id>
 	<name>Jonas</name>
-	<salary>5000</salary>
-	<isDead>false</isDead>
-	<workingHours>5.953631238815772</workingHours>
-	<DISCRIMINANT>Caretaker</DISCRIMINANT>
-</EMPLOYEE>
-<EMPLOYEE>
-	<id>3834728631281957080</id>
-	<name>Magnus</name>
-	<salary>1000</salary>
-	<isDead>false</isDead>
-	<workingHours>6.5420644415463824</workingHours>
-	<DISCRIMINANT>Caretaker</DISCRIMINANT>
-</EMPLOYEE>
-<EMPLOYEE>
-	<id>2198242831311614704</id>
-	<name>Mads</name>
 	<salary>3000</salary>
 	<isDead>false</isDead>
-	<workingHours>1.28308150567363</workingHours>
+	<workingHours>0.012094356491905156</workingHours>
 	<DISCRIMINANT>Caretaker</DISCRIMINANT>
 </EMPLOYEE>
 <EMPLOYEE>
-	<id>232306641192257245</id>
+	<id>1781851217398795906</id>
 	<name>Mads</name>
-	<salary>4000</salary>
-	<isDead>false</isDead>
-	<workingHours>9.075933701095689</workingHours>
-	<DISCRIMINANT>Caretaker</DISCRIMINANT>
-</EMPLOYEE>
-<EMPLOYEE>
-	<id>1700291548794852093</id>
-	<name>Magnus</name>
-	<salary>3000</salary>
-	<isDead>false</isDead>
-	<workingHours>3.5017671183777077</workingHours>
-	<DISCRIMINANT>Caretaker</DISCRIMINANT>
-</EMPLOYEE>
-<EMPLOYEE>
-	<id>1885423593699489255</id>
-	<name>Magnus</name>
 	<salary>2000</salary>
 	<isDead>false</isDead>
-	<workingHours>7.906623610698799</workingHours>
+	<workingHours>7.15211913077236</workingHours>
 	<DISCRIMINANT>Caretaker</DISCRIMINANT>
 </EMPLOYEE>
 <EMPLOYEE>
-	<id>2296311585911253188</id>
-	<name>Adam</name>
-	<salary>4000</salary>
-	<isDead>false</isDead>
-	<workingHours>1.926161875976563</workingHours>
-	<DISCRIMINANT>Caretaker</DISCRIMINANT>
-</EMPLOYEE>
-<EMPLOYEE>
-	<id>644880374012220367</id>
-	<name>Adam</name>
-	<salary>3000</salary>
-	<isDead>false</isDead>
-	<workingHours>4.545068446224048</workingHours>
-	<DISCRIMINANT>Caretaker</DISCRIMINANT>
-</EMPLOYEE>
-<EMPLOYEE>
-	<id>2214589421409341674</id>
+	<id>959931859455717397</id>
 	<name>Jonas</name>
 	<salary>1000</salary>
 	<isDead>false</isDead>
-	<workingHours>2.1276102182979315</workingHours>
+	<workingHours>6.3007073342515465</workingHours>
 	<DISCRIMINANT>Caretaker</DISCRIMINANT>
 </EMPLOYEE>
 <EMPLOYEE>
-	<id>2945176433940806808</id>
-	<name>Noah</name>
-	<salary>2000</salary>
-	<isDead>false</isDead>
-	<workingHours>7.604520962538981</workingHours>
-	<DISCRIMINANT>Caretaker</DISCRIMINANT>
-</EMPLOYEE>
-<EMPLOYEE>
-	<id>655734742801488163</id>
-	<name>Adam</name>
-	<salary>2000</salary>
-	<isDead>false</isDead>
-	<workingHours>5.934868659676971</workingHours>
-	<DISCRIMINANT>Caretaker</DISCRIMINANT>
-</EMPLOYEE>
-<EMPLOYEE>
-	<id>920858357946196468</id>
-	<name>Ulrich</name>
-	<salary>4000</salary>
-	<isDead>false</isDead>
-	<workingHours>7.7431110331393915</workingHours>
-	<DISCRIMINANT>Caretaker</DISCRIMINANT>
-</EMPLOYEE>
-<EMPLOYEE>
-	<id>4218271078169612884</id>
-	<name>Magnus</name>
-	<salary>3000</salary>
-	<isDead>false</isDead>
-	<workingHours>8.195500927244641</workingHours>
-	<DISCRIMINANT>Caretaker</DISCRIMINANT>
-</EMPLOYEE>
-<EMPLOYEE>
-	<id>1261345437644191104</id>
-	<name>Mads</name>
-	<salary>5000</salary>
-	<isDead>false</isDead>
-	<workingHours>0.08299484199761897</workingHours>
-	<DISCRIMINANT>Caretaker</DISCRIMINANT>
-</EMPLOYEE>
-<EMPLOYEE>
-	<id>740751383317359874</id>
-	<name>Magnus</name>
-	<salary>5000</salary>
-	<isDead>false</isDead>
-	<workingHours>1.8399045106520184</workingHours>
-	<DISCRIMINANT>Caretaker</DISCRIMINANT>
-</EMPLOYEE>
-<EMPLOYEE>
-	<id>3801628992545598748</id>
-	<name>Adam</name>
-	<salary>4000</salary>
-	<isDead>false</isDead>
-	<workingHours>7.8728109076367705</workingHours>
-	<DISCRIMINANT>Caretaker</DISCRIMINANT>
-</EMPLOYEE>
-<EMPLOYEE>
-	<id>4085350338168165109</id>
-	<name>Magnus</name>
-	<salary>5000</salary>
-	<isDead>false</isDead>
-	<workingHours>8.029825644030746</workingHours>
-	<DISCRIMINANT>Caretaker</DISCRIMINANT>
-</EMPLOYEE>
-<EMPLOYEE>
-	<id>996657458254568323</id>
-	<name>Adam</name>
-	<salary>4000</salary>
-	<isDead>false</isDead>
-	<workingHours>6.693260701537563</workingHours>
-	<DISCRIMINANT>Caretaker</DISCRIMINANT>
-</EMPLOYEE>
-<EMPLOYEE>
-	<id>3080343451694552583</id>
-	<name>Ulrich</name>
-	<salary>2000</salary>
-	<isDead>false</isDead>
-	<workingHours>1.246404256632635</workingHours>
-	<DISCRIMINANT>Caretaker</DISCRIMINANT>
-</EMPLOYEE>
-<EMPLOYEE>
-	<id>4479729803692734318</id>
-	<name>Mads</name>
-	<salary>4000</salary>
-	<isDead>false</isDead>
-	<workingHours>1.2935078879303485</workingHours>
-	<DISCRIMINANT>Caretaker</DISCRIMINANT>
-</EMPLOYEE>
-<EMPLOYEE>
-	<id>2519550678237999300</id>
-	<name>Noah</name>
-	<salary>5000</salary>
-	<isDead>false</isDead>
-	<workingHours>3.478041199431182</workingHours>
-	<DISCRIMINANT>Caretaker</DISCRIMINANT>
-</EMPLOYEE>
-<EMPLOYEE>
-	<id>720445075656595386</id>
-	<name>Magnus</name>
-	<salary>5000</salary>
-	<isDead>false</isDead>
-	<workingHours>6.368160837854328</workingHours>
-	<DISCRIMINANT>Caretaker</DISCRIMINANT>
-</EMPLOYEE>
-<EMPLOYEE>
-	<id>1045939050551672996</id>
-	<name>Jonas</name>
-	<salary>5000</salary>
-	<isDead>false</isDead>
-	<workingHours>7.446296126321842</workingHours>
-	<DISCRIMINANT>Caretaker</DISCRIMINANT>
-</EMPLOYEE>
-<EMPLOYEE>
-	<id>3455276155558059245</id>
-	<name>Adam</name>
-	<salary>1000</salary>
-	<isDead>false</isDead>
-	<workingHours>1.821859927915488</workingHours>
-	<DISCRIMINANT>Caretaker</DISCRIMINANT>
-</EMPLOYEE>
-<EMPLOYEE>
-	<id>3560904727908549213</id>
-	<name>Ulrich</name>
-	<salary>3000</salary>
-	<isDead>false</isDead>
-	<workingHours>8.963489860504355</workingHours>
-	<DISCRIMINANT>Caretaker</DISCRIMINANT>
-</EMPLOYEE>
-<EMPLOYEE>
-	<id>591906761205986818</id>
-	<name>Magnus</name>
-	<salary>4000</salary>
-	<isDead>false</isDead>
-	<workingHours>1.4745382316606537</workingHours>
-	<DISCRIMINANT>Caretaker</DISCRIMINANT>
-</EMPLOYEE>
-<EMPLOYEE>
-	<id>923100741063919873</id>
-	<name>Adam</name>
-	<salary>4000</salary>
-	<isDead>false</isDead>
-	<workingHours>7.33798581508214</workingHours>
-	<DISCRIMINANT>Caretaker</DISCRIMINANT>
-</EMPLOYEE>
-<EMPLOYEE>
-	<id>3318861563066045586</id>
-	<name>Noah</name>
-	<salary>5000</salary>
-	<isDead>false</isDead>
-	<workingHours>2.1008960046803296</workingHours>
-	<DISCRIMINANT>Caretaker</DISCRIMINANT>
-</EMPLOYEE>
-<EMPLOYEE>
-	<id>3326864116707730736</id>
+	<id>424222332806057046</id>
 	<name>Ulrich</name>
 	<salary>5000</salary>
 	<isDead>false</isDead>
-	<workingHours>1.1367832608137662</workingHours>
+	<workingHours>7.805437244380053</workingHours>
 	<DISCRIMINANT>Caretaker</DISCRIMINANT>
 </EMPLOYEE>
 <EMPLOYEE>
-	<id>1760635762415605004</id>
-	<name>Ulrich</name>
-	<salary>3000</salary>
-	<isDead>false</isDead>
-	<workingHours>5.719050720529219</workingHours>
-	<DISCRIMINANT>Caretaker</DISCRIMINANT>
-</EMPLOYEE>
-<EMPLOYEE>
-	<id>2502153553333272035</id>
-	<name>Adam</name>
+	<id>462199739215785833</id>
+	<name>Noah</name>
 	<salary>5000</salary>
 	<isDead>false</isDead>
-	<workingHours>6.576221022910888</workingHours>
+	<workingHours>8.652714263889695</workingHours>
 	<DISCRIMINANT>Caretaker</DISCRIMINANT>
 </EMPLOYEE>
 <EMPLOYEE>
-	<id>2577926125784760333</id>
+	<id>1154854197497756631</id>
 	<name>Mads</name>
 	<salary>2000</salary>
 	<isDead>false</isDead>
-	<workingHours>7.468520877096388</workingHours>
+	<workingHours>6.711991601098086</workingHours>
 	<DISCRIMINANT>Caretaker</DISCRIMINANT>
 </EMPLOYEE>
 <EMPLOYEE>
-	<id>1803921614042349933</id>
-	<name>Noah</name>
-	<salary>3000</salary>
-	<isDead>false</isDead>
-	<workingHours>0.9843148354564335</workingHours>
-	<DISCRIMINANT>Caretaker</DISCRIMINANT>
-</EMPLOYEE>
-<EMPLOYEE>
-	<id>505544994199122044</id>
+	<id>2114929215774769540</id>
 	<name>Mads</name>
-	<salary>3000</salary>
+	<salary>1000</salary>
 	<isDead>false</isDead>
-	<workingHours>3.6038187395283994</workingHours>
+	<workingHours>6.544252680276878</workingHours>
 	<DISCRIMINANT>Caretaker</DISCRIMINANT>
 </EMPLOYEE>
 <EMPLOYEE>
-	<id>3765499226596928624</id>
+	<id>2503525123276836857</id>
 	<name>Jonas</name>
 	<salary>1000</salary>
 	<isDead>false</isDead>
-	<workingHours>6.321344122454761</workingHours>
+	<workingHours>1.3480677700218335</workingHours>
 	<DISCRIMINANT>Caretaker</DISCRIMINANT>
 </EMPLOYEE>
 <EMPLOYEE>
-	<id>1984410552240622426</id>
-	<name>Magnus</name>
-	<salary>5000</salary>
-	<isDead>false</isDead>
-	<workingHours>1.7482543331863498</workingHours>
-	<DISCRIMINANT>Caretaker</DISCRIMINANT>
-</EMPLOYEE>
-<EMPLOYEE>
-	<id>116123512172261543</id>
-	<name>Magnus</name>
-	<salary>1000</salary>
-	<isDead>false</isDead>
-	<workingHours>7.83130712415228</workingHours>
-	<DISCRIMINANT>Caretaker</DISCRIMINANT>
-</EMPLOYEE>
-<EMPLOYEE>
-	<id>1920665973554298885</id>
-	<name>Noah</name>
-	<salary>3000</salary>
-	<isDead>false</isDead>
-	<workingHours>0.05403209735767245</workingHours>
-	<DISCRIMINANT>Caretaker</DISCRIMINANT>
-</EMPLOYEE>
-<EMPLOYEE>
-	<id>1069226379660487076</id>
+	<id>3939699274155071205</id>
 	<name>Ulrich</name>
-	<salary>1000</salary>
-	<isDead>false</isDead>
-	<workingHours>6.227201190370145</workingHours>
-	<DISCRIMINANT>Caretaker</DISCRIMINANT>
-</EMPLOYEE>
-<EMPLOYEE>
-	<id>3149325958066836039</id>
-	<name>Noah</name>
-	<salary>2000</salary>
-	<isDead>false</isDead>
-	<workingHours>5.301376754410945</workingHours>
-	<DISCRIMINANT>Caretaker</DISCRIMINANT>
-</EMPLOYEE>
-<EMPLOYEE>
-	<id>3767769362685270248</id>
-	<name>Magnus</name>
-	<salary>3000</salary>
-	<isDead>false</isDead>
-	<workingHours>2.6725547394450135</workingHours>
-	<DISCRIMINANT>Caretaker</DISCRIMINANT>
-</EMPLOYEE>
-<EMPLOYEE>
-	<id>1504262679840314439</id>
-	<name>Mads</name>
 	<salary>4000</salary>
 	<isDead>false</isDead>
-	<workingHours>6.263363139548482</workingHours>
+	<workingHours>2.4728431125665873</workingHours>
 	<DISCRIMINANT>Caretaker</DISCRIMINANT>
 </EMPLOYEE>
 <EMPLOYEE>
-	<id>1970648535756580532</id>
-	<name>Noah</name>
-	<salary>2000</salary>
-	<isDead>false</isDead>
-	<workingHours>9.944514488314367</workingHours>
-	<DISCRIMINANT>Caretaker</DISCRIMINANT>
-</EMPLOYEE>
-<EMPLOYEE>
-	<id>4383800462389801410</id>
-	<name>Magnus</name>
-	<salary>2000</salary>
-	<isDead>false</isDead>
-	<workingHours>0.6008065949932095</workingHours>
-	<DISCRIMINANT>Caretaker</DISCRIMINANT>
-</EMPLOYEE>
-<EMPLOYEE>
-	<id>1327756115380490950</id>
-	<name>Mads</name>
-	<salary>4000</salary>
-	<isDead>false</isDead>
-	<workingHours>6.915661094196782</workingHours>
-	<DISCRIMINANT>Caretaker</DISCRIMINANT>
-</EMPLOYEE>
-<EMPLOYEE>
-	<id>1946602736374233920</id>
-	<name>Ulrich</name>
-	<salary>1000</salary>
-	<isDead>false</isDead>
-	<workingHours>7.28916457955557</workingHours>
-	<DISCRIMINANT>Caretaker</DISCRIMINANT>
-</EMPLOYEE>
-<EMPLOYEE>
-	<id>3397150957989756732</id>
+	<id>3649265335155684064</id>
 	<name>Jonas</name>
-	<salary>5000</salary>
+	<salary>1000</salary>
 	<isDead>false</isDead>
-	<workingHours>3.2729651583618757</workingHours>
+	<workingHours>3.900205307043012</workingHours>
 	<DISCRIMINANT>Caretaker</DISCRIMINANT>
 </EMPLOYEE>
 <EMPLOYEE>
-	<id>3820483722615917337</id>
-	<name>Noah</name>
+	<id>1119657384171113986</id>
+	<name>Mads</name>
 	<salary>2000</salary>
 	<isDead>false</isDead>
-	<workingHours>4.363343451394083</workingHours>
+	<workingHours>7.865018221420375</workingHours>
 	<DISCRIMINANT>Caretaker</DISCRIMINANT>
 </EMPLOYEE>
 <EMPLOYEE>
-	<id>3148230660515202190</id>
+	<id>1320791042646944910</id>
+	<name>Mads</name>
+	<salary>4000</salary>
+	<isDead>false</isDead>
+	<workingHours>7.804101868018025</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<id>2304447433191770612</id>
+	<name>Ulrich</name>
+	<salary>3000</salary>
+	<isDead>false</isDead>
+	<workingHours>6.840430542145764</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<id>3962532851018090116</id>
+	<name>Magnus</name>
+	<salary>1000</salary>
+	<isDead>false</isDead>
+	<workingHours>0.9210215703913316</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<id>4020611484880294622</id>
+	<name>Ulrich</name>
+	<salary>5000</salary>
+	<isDead>false</isDead>
+	<workingHours>9.004450835045951</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<id>2901334276431226926</id>
+	<name>Jonas</name>
+	<salary>4000</salary>
+	<isDead>false</isDead>
+	<workingHours>6.261600478847338</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<id>2373705735614651799</id>
 	<name>Adam</name>
 	<salary>4000</salary>
 	<isDead>false</isDead>
-	<workingHours>5.895534887245414</workingHours>
+	<workingHours>7.96608468536882</workingHours>
 	<DISCRIMINANT>Caretaker</DISCRIMINANT>
 </EMPLOYEE>
 <EMPLOYEE>
-	<id>2404273422651168151</id>
-	<name>Jonas</name>
-	<salary>4000</salary>
+	<id>1523466009337724639</id>
+	<name>Ulrich</name>
+	<salary>1000</salary>
 	<isDead>false</isDead>
-	<workingHours>9.08286265348313</workingHours>
+	<workingHours>5.873854737041433</workingHours>
 	<DISCRIMINANT>Caretaker</DISCRIMINANT>
 </EMPLOYEE>
 <EMPLOYEE>
-	<id>4004448055072940266</id>
+	<id>1280434684986708976</id>
+	<name>Adam</name>
+	<salary>3000</salary>
+	<isDead>false</isDead>
+	<workingHours>9.288817477901102</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<id>3344110996432958747</id>
+	<name>Mads</name>
+	<salary>5000</salary>
+	<isDead>false</isDead>
+	<workingHours>8.378159717602445</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<id>1846604488259871258</id>
+	<name>Noah</name>
+	<salary>5000</salary>
+	<isDead>false</isDead>
+	<workingHours>0.6465369458633929</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<id>4137551378656181662</id>
+	<name>Jonas</name>
+	<salary>2000</salary>
+	<isDead>false</isDead>
+	<workingHours>9.968336992286048</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<id>4483133897128643185</id>
+	<name>Mads</name>
+	<salary>2000</salary>
+	<isDead>false</isDead>
+	<workingHours>4.462090666485064</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<id>1665644717412980836</id>
+	<name>Jonas</name>
+	<salary>2000</salary>
+	<isDead>false</isDead>
+	<workingHours>6.897966781162572</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<id>2761412972152322735</id>
+	<name>Noah</name>
+	<salary>5000</salary>
+	<isDead>false</isDead>
+	<workingHours>9.694998670631197</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<id>2797610598651173560</id>
+	<name>Magnus</name>
+	<salary>5000</salary>
+	<isDead>false</isDead>
+	<workingHours>5.656439825240969</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<id>1456574938376625512</id>
+	<name>Adam</name>
+	<salary>3000</salary>
+	<isDead>false</isDead>
+	<workingHours>8.143571645460677</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<id>4125834232387556650</id>
+	<name>Adam</name>
+	<salary>3000</salary>
+	<isDead>false</isDead>
+	<workingHours>0.7972369672307478</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<id>1287358585246592040</id>
 	<name>Ulrich</name>
 	<salary>3000</salary>
 	<isDead>false</isDead>
-	<workingHours>6.642892146067605</workingHours>
+	<workingHours>7.270256168419565</workingHours>
 	<DISCRIMINANT>Caretaker</DISCRIMINANT>
 </EMPLOYEE>
 <EMPLOYEE>
-	<id>2852427474475845338</id>
-	<name>Noah</name>
+	<id>3537022284151839720</id>
+	<name>Jonas</name>
 	<salary>4000</salary>
 	<isDead>false</isDead>
-	<workingHours>8.4160503309575</workingHours>
+	<workingHours>5.585923781577301</workingHours>
 	<DISCRIMINANT>Caretaker</DISCRIMINANT>
 </EMPLOYEE>
 <EMPLOYEE>
-	<id>2089353254741007337</id>
+	<id>2157493818723838580</id>
+	<name>Adam</name>
+	<salary>1000</salary>
+	<isDead>false</isDead>
+	<workingHours>7.362858043303716</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<id>784407787186660665</id>
+	<name>Jonas</name>
+	<salary>5000</salary>
+	<isDead>false</isDead>
+	<workingHours>7.723756917330126</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<id>4141924434893866323</id>
+	<name>Magnus</name>
+	<salary>4000</salary>
+	<isDead>false</isDead>
+	<workingHours>7.090365050397241</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<id>2398186738225111735</id>
+	<name>Mads</name>
+	<salary>2000</salary>
+	<isDead>false</isDead>
+	<workingHours>0.475015195764924</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<id>3961339504308532746</id>
+	<name>Mads</name>
+	<salary>2000</salary>
+	<isDead>false</isDead>
+	<workingHours>3.859071079751292</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<id>2032274574390846991</id>
+	<name>Jonas</name>
+	<salary>3000</salary>
+	<isDead>false</isDead>
+	<workingHours>2.977052859562054</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<id>1401423888314703213</id>
+	<name>Ulrich</name>
+	<salary>3000</salary>
+	<isDead>false</isDead>
+	<workingHours>8.601298939707986</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<id>4144619275837111359</id>
+	<name>Jonas</name>
+	<salary>2000</salary>
+	<isDead>false</isDead>
+	<workingHours>4.9905869342866795</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<id>2583955780497139561</id>
+	<name>Magnus</name>
+	<salary>1000</salary>
+	<isDead>false</isDead>
+	<workingHours>7.057311097168775</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<id>1689257174064826490</id>
+	<name>Mads</name>
+	<salary>5000</salary>
+	<isDead>false</isDead>
+	<workingHours>0.7109397610772006</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<id>2830175376812081115</id>
+	<name>Noah</name>
+	<salary>1000</salary>
+	<isDead>false</isDead>
+	<workingHours>8.656519339002038</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<id>1813524563138429220</id>
+	<name>Magnus</name>
+	<salary>3000</salary>
+	<isDead>false</isDead>
+	<workingHours>4.485834311806828</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<id>48244423202231297</id>
+	<name>Magnus</name>
+	<salary>5000</salary>
+	<isDead>false</isDead>
+	<workingHours>1.9648816045771633</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<id>1276216963088966880</id>
+	<name>Mads</name>
+	<salary>1000</salary>
+	<isDead>false</isDead>
+	<workingHours>7.733106701096268</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<id>2430419684440963618</id>
+	<name>Adam</name>
+	<salary>5000</salary>
+	<isDead>false</isDead>
+	<workingHours>5.4493483233489135</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<id>614688735198565127</id>
+	<name>Ulrich</name>
+	<salary>2000</salary>
+	<isDead>false</isDead>
+	<workingHours>3.8935681241522</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<id>917958370877733842</id>
+	<name>Ulrich</name>
+	<salary>5000</salary>
+	<isDead>false</isDead>
+	<workingHours>5.532827701853522</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<id>3536344193454220950</id>
+	<name>Noah</name>
+	<salary>1000</salary>
+	<isDead>false</isDead>
+	<workingHours>4.0564565502342385</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<id>82208415361434174</id>
+	<name>Jonas</name>
+	<salary>5000</salary>
+	<isDead>false</isDead>
+	<workingHours>5.502496624314012</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<id>3135166444511591956</id>
+	<name>Mads</name>
+	<salary>2000</salary>
+	<isDead>false</isDead>
+	<workingHours>0.5654803809806108</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<id>2707522488583806961</id>
+	<name>Magnus</name>
+	<salary>2000</salary>
+	<isDead>false</isDead>
+	<workingHours>5.751091075138123</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<id>841907682698732471</id>
+	<name>Ulrich</name>
+	<salary>1000</salary>
+	<isDead>false</isDead>
+	<workingHours>5.047735930275956</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<id>869107307428843802</id>
+	<name>Noah</name>
+	<salary>2000</salary>
+	<isDead>false</isDead>
+	<workingHours>1.6125833656363364</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<id>3890446502918254918</id>
 	<name>Adam</name>
 	<salary>2000</salary>
 	<isDead>false</isDead>
-	<workingHours>1.7229600305761683</workingHours>
+	<workingHours>5.409794596052561</workingHours>
 	<DISCRIMINANT>Caretaker</DISCRIMINANT>
 </EMPLOYEE>
 <EMPLOYEE>
-	<id>3566937770414020112</id>
+	<id>3633448663066529447</id>
+	<name>Noah</name>
+	<salary>4000</salary>
+	<isDead>false</isDead>
+	<workingHours>8.925500805099206</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<id>40355934957690013</id>
+	<name>Magnus</name>
+	<salary>1000</salary>
+	<isDead>false</isDead>
+	<workingHours>4.60868838465821</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<id>2548680551314850227</id>
+	<name>Mads</name>
+	<salary>1000</salary>
+	<isDead>false</isDead>
+	<workingHours>1.98833329083009</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<id>3585721030004712380</id>
+	<name>Mads</name>
+	<salary>1000</salary>
+	<isDead>false</isDead>
+	<workingHours>9.82582862050127</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<id>2645777402311377050</id>
+	<name>Jonas</name>
+	<salary>1000</salary>
+	<isDead>false</isDead>
+	<workingHours>6.399524031971435</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<id>1092144036820137935</id>
+	<name>Jonas</name>
+	<salary>3000</salary>
+	<isDead>false</isDead>
+	<workingHours>2.6102023860166867</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<id>4164479562115530328</id>
 	<name>Magnus</name>
 	<salary>5000</salary>
 	<isDead>false</isDead>
-	<workingHours>6.420429304336237</workingHours>
+	<workingHours>0.2334322486598761</workingHours>
 	<DISCRIMINANT>Caretaker</DISCRIMINANT>
 </EMPLOYEE>
 <EMPLOYEE>
-	<id>3906459373866726235</id>
-	<name>Noah</name>
-	<salary>1000</salary>
+	<id>22787223701099175</id>
+	<name>Mads</name>
+	<salary>3000</salary>
 	<isDead>false</isDead>
-	<workingHours>8.467870935734792</workingHours>
+	<workingHours>5.527194253040896</workingHours>
 	<DISCRIMINANT>Caretaker</DISCRIMINANT>
 </EMPLOYEE>
 <EMPLOYEE>
-	<id>3386091930292633739</id>
+	<id>2135330677217014787</id>
 	<name>Adam</name>
-	<salary>2000</salary>
-	<isDead>false</isDead>
-	<workingHours>4.029285279369304</workingHours>
-	<DISCRIMINANT>Caretaker</DISCRIMINANT>
-</EMPLOYEE>
-<EMPLOYEE>
-	<id>1373332092686335636</id>
-	<name>Jonas</name>
-	<salary>1000</salary>
-	<isDead>false</isDead>
-	<workingHours>5.060050770015443</workingHours>
-	<DISCRIMINANT>Caretaker</DISCRIMINANT>
-</EMPLOYEE>
-<EMPLOYEE>
-	<id>702355872137670600</id>
-	<name>Noah</name>
-	<salary>2000</salary>
-	<isDead>false</isDead>
-	<workingHours>9.640376780063583</workingHours>
-	<DISCRIMINANT>Caretaker</DISCRIMINANT>
-</EMPLOYEE>
-<EMPLOYEE>
-	<id>2623100481423176703</id>
-	<name>Ulrich</name>
-	<salary>1000</salary>
-	<isDead>false</isDead>
-	<workingHours>4.630718650574098</workingHours>
-	<DISCRIMINANT>Caretaker</DISCRIMINANT>
-</EMPLOYEE>
-<EMPLOYEE>
-	<id>1213376581343506645</id>
-	<name>Jonas</name>
-	<salary>2000</salary>
-	<isDead>false</isDead>
-	<workingHours>7.943261241916034</workingHours>
-	<DISCRIMINANT>Caretaker</DISCRIMINANT>
-</EMPLOYEE>
-<EMPLOYEE>
-	<id>1084759687927819352</id>
-	<name>Ulrich</name>
 	<salary>4000</salary>
 	<isDead>false</isDead>
-	<workingHours>2.9751353270661207</workingHours>
+	<workingHours>0.7381510747967712</workingHours>
 	<DISCRIMINANT>Caretaker</DISCRIMINANT>
 </EMPLOYEE>
 <EMPLOYEE>
-	<id>4374048893349511415</id>
+	<id>4320001993054779346</id>
+	<name>Noah</name>
+	<salary>4000</salary>
+	<isDead>false</isDead>
+	<workingHours>7.213702014919782</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<id>378660574614520202</id>
+	<name>Jonas</name>
+	<salary>4000</salary>
+	<isDead>false</isDead>
+	<workingHours>0.452843478450643</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<id>3856477666602334783</id>
+	<name>Noah</name>
+	<salary>5000</salary>
+	<isDead>false</isDead>
+	<workingHours>6.012150300438944</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<id>3046104506617607714</id>
 	<name>Mads</name>
 	<salary>4000</salary>
 	<isDead>false</isDead>
-	<workingHours>8.912644089386548</workingHours>
+	<workingHours>6.953958662900515</workingHours>
 	<DISCRIMINANT>Caretaker</DISCRIMINANT>
 </EMPLOYEE>
 <EMPLOYEE>
-	<id>888303187256619841</id>
+	<id>2954354022001669935</id>
+	<name>Mads</name>
+	<salary>1000</salary>
+	<isDead>false</isDead>
+	<workingHours>2.902772404791838</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<id>288508026268318317</id>
+	<name>Magnus</name>
+	<salary>4000</salary>
+	<isDead>false</isDead>
+	<workingHours>7.527595888335156</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<id>658282361022070857</id>
+	<name>Jonas</name>
+	<salary>1000</salary>
+	<isDead>false</isDead>
+	<workingHours>6.792364486682219</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<id>2117845363957123798</id>
+	<name>Mads</name>
+	<salary>5000</salary>
+	<isDead>false</isDead>
+	<workingHours>0.8906070798858234</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<id>3591553570716448628</id>
+	<name>Ulrich</name>
+	<salary>4000</salary>
+	<isDead>false</isDead>
+	<workingHours>7.670934452449965</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<id>1780355303244811992</id>
+	<name>Noah</name>
+	<salary>3000</salary>
+	<isDead>false</isDead>
+	<workingHours>5.130976722599608</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<id>2982206276828739209</id>
 	<name>Adam</name>
 	<salary>5000</salary>
 	<isDead>false</isDead>
-	<workingHours>6.350587436091209</workingHours>
+	<workingHours>8.053116991506485</workingHours>
 	<DISCRIMINANT>Caretaker</DISCRIMINANT>
 </EMPLOYEE>
 <EMPLOYEE>
-	<id>2687264087585130325</id>
+	<id>1551179791326238171</id>
+	<name>Noah</name>
+	<salary>1000</salary>
+	<isDead>false</isDead>
+	<workingHours>1.8832258096026022</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<id>1769229596269195569</id>
+	<name>Adam</name>
+	<salary>3000</salary>
+	<isDead>false</isDead>
+	<workingHours>5.53801290659889</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<id>4271573091981698011</id>
+	<name>Noah</name>
+	<salary>1000</salary>
+	<isDead>false</isDead>
+	<workingHours>7.834273735510151</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<id>3438114955587566447</id>
+	<name>Mads</name>
+	<salary>1000</salary>
+	<isDead>false</isDead>
+	<workingHours>4.007264620341784</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<id>3078648798915191817</id>
+	<name>Adam</name>
+	<salary>1000</salary>
+	<isDead>false</isDead>
+	<workingHours>0.6736884975171298</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<id>1779778572841993207</id>
 	<name>Jonas</name>
 	<salary>3000</salary>
 	<isDead>false</isDead>
-	<workingHours>2.191888681203479</workingHours>
+	<workingHours>1.399570713821372</workingHours>
 	<DISCRIMINANT>Caretaker</DISCRIMINANT>
 </EMPLOYEE>
 <EMPLOYEE>
-	<id>3570124413495048127</id>
-	<name>Ulrich</name>
-	<salary>2000</salary>
-	<isDead>false</isDead>
-	<workingHours>2.272194631117097</workingHours>
-	<DISCRIMINANT>Caretaker</DISCRIMINANT>
-</EMPLOYEE>
-<EMPLOYEE>
-	<id>2001063753041567717</id>
-	<name>Mads</name>
+	<id>3477251586124156291</id>
+	<name>Adam</name>
 	<salary>5000</salary>
 	<isDead>false</isDead>
-	<workingHours>6.4054636591548055</workingHours>
+	<workingHours>0.6430816161300779</workingHours>
 	<DISCRIMINANT>Caretaker</DISCRIMINANT>
 </EMPLOYEE>
 <EMPLOYEE>
-	<id>1729931825973407253</id>
-	<name>Noah</name>
-	<salary>2000</salary>
+	<id>468346445739701996</id>
+	<name>Mads</name>
+	<salary>1000</salary>
 	<isDead>false</isDead>
-	<workingHours>6.696049886204093</workingHours>
+	<workingHours>8.639441360488348</workingHours>
 	<DISCRIMINANT>Caretaker</DISCRIMINANT>
 </EMPLOYEE>
 <EMPLOYEE>
-	<id>3496500627699055818</id>
+	<id>4123480033401178274</id>
+	<name>Noah</name>
+	<salary>5000</salary>
+	<isDead>false</isDead>
+	<workingHours>7.025145007166676</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<id>3634942887804280432</id>
+	<name>Magnus</name>
+	<salary>3000</salary>
+	<isDead>false</isDead>
+	<workingHours>4.2298232248070855</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<id>1461773510225252728</id>
+	<name>Adam</name>
+	<salary>3000</salary>
+	<isDead>false</isDead>
+	<workingHours>7.716262022419272</workingHours>
+	<DISCRIMINANT>Caretaker</DISCRIMINANT>
+</EMPLOYEE>
+<EMPLOYEE>
+	<id>643062269456795446</id>
 	<name>Jonas</name>
 	<salary>4000</salary>
 	<isDead>false</isDead>
-	<workingHours>1.0998015325179045</workingHours>
+	<workingHours>3.120084795025443</workingHours>
 	<DISCRIMINANT>Caretaker</DISCRIMINANT>
 </EMPLOYEE>
 <EMPLOYEE>
-	<id>3596446653600849755</id>
+	<id>15926282466071557</id>
 	<name>Magnus</name>
 	<salary>1000</salary>
 	<isDead>false</isDead>
-	<workingHours>5.448686779683545</workingHours>
-	<DISCRIMINANT>Caretaker</DISCRIMINANT>
-</EMPLOYEE>
-<EMPLOYEE>
-	<id>3845492592431680844</id>
-	<name>Noah</name>
-	<salary>5000</salary>
-	<isDead>false</isDead>
-	<workingHours>7.0009033881267175</workingHours>
-	<DISCRIMINANT>Caretaker</DISCRIMINANT>
-</EMPLOYEE>
-<EMPLOYEE>
-	<id>4156285646598782327</id>
-	<name>Mads</name>
-	<salary>1000</salary>
-	<isDead>false</isDead>
-	<workingHours>8.421252838076597</workingHours>
-	<DISCRIMINANT>Caretaker</DISCRIMINANT>
-</EMPLOYEE>
-<EMPLOYEE>
-	<id>1565880430004044774</id>
-	<name>Jonas</name>
-	<salary>2000</salary>
-	<isDead>false</isDead>
-	<workingHours>0.6440742439962133</workingHours>
-	<DISCRIMINANT>Caretaker</DISCRIMINANT>
-</EMPLOYEE>
-<EMPLOYEE>
-	<id>3602983082974109784</id>
-	<name>Magnus</name>
-	<salary>5000</salary>
-	<isDead>false</isDead>
-	<workingHours>0.06027632508581404</workingHours>
-	<DISCRIMINANT>Caretaker</DISCRIMINANT>
-</EMPLOYEE>
-<EMPLOYEE>
-	<id>2731905881755696328</id>
-	<name>Noah</name>
-	<salary>3000</salary>
-	<isDead>false</isDead>
-	<workingHours>3.3393113655442352</workingHours>
-	<DISCRIMINANT>Caretaker</DISCRIMINANT>
-</EMPLOYEE>
-<EMPLOYEE>
-	<id>1500957493028772987</id>
-	<name>Magnus</name>
-	<salary>5000</salary>
-	<isDead>false</isDead>
-	<workingHours>5.859207761734007</workingHours>
-	<DISCRIMINANT>Caretaker</DISCRIMINANT>
-</EMPLOYEE>
-<EMPLOYEE>
-	<id>219466868157119145</id>
-	<name>Mads</name>
-	<salary>1000</salary>
-	<isDead>false</isDead>
-	<workingHours>8.457365060034304</workingHours>
-	<DISCRIMINANT>Caretaker</DISCRIMINANT>
-</EMPLOYEE>
-<EMPLOYEE>
-	<id>460238153242934550</id>
-	<name>Noah</name>
-	<salary>1000</salary>
-	<isDead>false</isDead>
-	<workingHours>2.5225495701475307</workingHours>
-	<DISCRIMINANT>Caretaker</DISCRIMINANT>
-</EMPLOYEE>
-<EMPLOYEE>
-	<id>3445501609667168539</id>
-	<name>Mads</name>
-	<salary>2000</salary>
-	<isDead>false</isDead>
-	<workingHours>8.649371631467849</workingHours>
-	<DISCRIMINANT>Caretaker</DISCRIMINANT>
-</EMPLOYEE>
-<EMPLOYEE>
-	<id>1730787176285640848</id>
-	<name>Jonas</name>
-	<salary>3000</salary>
-	<isDead>false</isDead>
-	<workingHours>6.77742093822345</workingHours>
-	<DISCRIMINANT>Caretaker</DISCRIMINANT>
-</EMPLOYEE>
-<EMPLOYEE>
-	<id>4335242273015202304</id>
-	<name>Noah</name>
-	<salary>5000</salary>
-	<isDead>false</isDead>
-	<workingHours>0.2296698630150784</workingHours>
-	<DISCRIMINANT>Caretaker</DISCRIMINANT>
-</EMPLOYEE>
-<EMPLOYEE>
-	<id>4101735708832903</id>
-	<name>Jonas</name>
-	<salary>1000</salary>
-	<isDead>false</isDead>
-	<workingHours>2.5708407824159343</workingHours>
+	<workingHours>7.046536189262231</workingHours>
 	<DISCRIMINANT>Caretaker</DISCRIMINANT>
 </EMPLOYEE>
 </content>

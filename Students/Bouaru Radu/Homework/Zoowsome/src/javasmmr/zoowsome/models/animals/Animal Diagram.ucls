@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.3" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="javasmmr.zoowsome.models.animals.Wasp" project="Zoowsome" 
+    file="/Zoowsome/src/javasmmr/zoowsome/models/animals/Wasp.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="207" x="1228" y="206"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="javasmmr.zoowsome.models.animals.Monkey" project="Zoowsome" 
+    file="/Zoowsome/src/javasmmr/zoowsome/models/animals/Monkey.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="182" x="3640" y="206"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="javasmmr.zoowsome.models.animals.Dinosaur" project="Zoowsome" 
+    file="/Zoowsome/src/javasmmr/zoowsome/models/animals/Dinosaur.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="181" x="1995" y="206"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="4" language="java" name="javasmmr.zoowsome.models.animals.Aquatic.waterType" project="Zoowsome" 
+    file="/Zoowsome/src/javasmmr/zoowsome/models/animals/Aquatic.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="166" x="2640" y="206"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="5" language="java" name="javasmmr.zoowsome.models.animals.Phoenix" project="Zoowsome" 
+    file="/Zoowsome/src/javasmmr/zoowsome/models/animals/Phoenix.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="212" x="465" y="206"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="javasmmr.zoowsome.models.animals.Whale" project="Zoowsome" 
+    file="/Zoowsome/src/javasmmr/zoowsome/models/animals/Whale.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="217" x="2846" y="206"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="javasmmr.zoowsome.models.animals.Salmon" project="Zoowsome" 
+    file="/Zoowsome/src/javasmmr/zoowsome/models/animals/Salmon.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="222" x="3103" y="206"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="javasmmr.zoowsome.models.animals.Gryphon" project="Zoowsome" 
+    file="/Zoowsome/src/javasmmr/zoowsome/models/animals/Gryphon.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="216" x="717" y="206"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="javasmmr.zoowsome.models.animals.Bird" project="Zoowsome" 
+    file="/Zoowsome/src/javasmmr/zoowsome/models/animals/Bird.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="208" x="973" y="-23"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="javasmmr.zoowsome.models.animals.Insect" project="Zoowsome" 
+    file="/Zoowsome/src/javasmmr/zoowsome/models/animals/Insect.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="208" x="1666" y="-23"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="javasmmr.zoowsome.models.animals.Reptile" project="Zoowsome" 
+    file="/Zoowsome/src/javasmmr/zoowsome/models/animals/Reptile.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="170" x="2216" y="-23"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="javasmmr.zoowsome.models.animals.Peacock" project="Zoowsome" 
+    file="/Zoowsome/src/javasmmr/zoowsome/models/animals/Peacock.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="215" x="973" y="206"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="javasmmr.zoowsome.models.animals.Animal" project="Zoowsome" 
+    file="/Zoowsome/src/javasmmr/zoowsome/models/animals/Animal.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="178" x="2216" y="-252"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="javasmmr.zoowsome.models.animals.Snake" project="Zoowsome" 
+    file="/Zoowsome/src/javasmmr/zoowsome/models/animals/Snake.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="168" x="2216" y="206"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="javasmmr.zoowsome.models.animals.Cow" project="Zoowsome" 
+    file="/Zoowsome/src/javasmmr/zoowsome/models/animals/Cow.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="168" x="3862" y="206"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="javasmmr.zoowsome.models.animals.Spiderman" project="Zoowsome" 
+    file="/Zoowsome/src/javasmmr/zoowsome/models/animals/Spiderman.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="230" x="1475" y="206"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="javasmmr.zoowsome.models.animals.MantaRay" project="Zoowsome" 
+    file="/Zoowsome/src/javasmmr/zoowsome/models/animals/MantaRay.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="235" x="3365" y="206"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="18" language="java" name="javasmmr.zoowsome.models.animals.Mantis" project="Zoowsome" 
+    file="/Zoowsome/src/javasmmr/zoowsome/models/animals/Mantis.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="210" x="1745" y="206"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="19" language="java" name="javasmmr.zoowsome.models.animals.Tiger" project="Zoowsome" 
+    file="/Zoowsome/src/javasmmr/zoowsome/models/animals/Tiger.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="169" x="4070" y="206"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="20" language="java" name="javasmmr.zoowsome.models.animals.Aquatic" project="Zoowsome" 
+    file="/Zoowsome/src/javasmmr/zoowsome/models/animals/Aquatic.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="224" x="2801" y="-23"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="21" language="java" name="javasmmr.zoowsome.models.animals.Tortoise" project="Zoowsome" 
+    file="/Zoowsome/src/javasmmr/zoowsome/models/animals/Tortoise.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="176" x="2424" y="206"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="22" language="java" name="javasmmr.zoowsome.models.animals.Mammal" project="Zoowsome" 
+    file="/Zoowsome/src/javasmmr/zoowsome/models/animals/Mammal.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="183" x="3640" y="-23"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <generalization id="23">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="11"/>  
+  </generalization>  
+  <generalization id="24">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="10"/>  
+  </generalization>  
+  <generalization id="25">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="11"/>  
+  </generalization>  
+  <generalization id="26">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="13"/>  
+  </generalization>  
+  <generalization id="27">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="9"/>  
+  </generalization>  
+  <generalization id="28">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="10"/>  
+  </generalization>  
+  <generalization id="29">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="22"/>  
+  </generalization>  
+  <generalization id="30">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="9"/>  
+  </generalization>  
+  <generalization id="31">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="20"/>  
+  </generalization>  
+  <generalization id="32">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="20"/>  
+  </generalization>  
+  <generalization id="33">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="13"/>  
+  </generalization>  
+  <generalization id="34">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="13"/>  
+  </generalization>  
+  <generalization id="35">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="9"/>  
+  </generalization>  
+  <generalization id="36">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="11"/>  
+  </generalization>  
+  <nesting id="37">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="4"/>  
+  </nesting>  
+  <association id="38">    
+    <end type="SOURCE" refId="20" navigable="false">      
+      <attribute id="39" name="swimmingWater"/>      
+      <multiplicity id="40" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="41">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="22"/>  
+  </generalization>  
+  <generalization id="42">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="13"/>  
+  </generalization>  
+  <generalization id="43">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="10"/>  
+  </generalization>  
+  <generalization id="44">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="13"/>  
+  </generalization>  
+  <generalization id="45">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="22"/>  
+  </generalization>  
+  <generalization id="46">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="20"/>  
+  </generalization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

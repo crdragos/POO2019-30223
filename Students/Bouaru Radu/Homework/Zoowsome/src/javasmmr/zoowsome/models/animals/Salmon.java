@@ -1,6 +1,6 @@
 package javasmmr.zoowsome.models.animals;
 
-import static javasmmr.zoowsome.repositories.AnimalRepository.createNode;
+import static javasmmr.zoowsome.repositories.EntityRepository.createNode;
 
 import javax.xml.stream.XMLEventWriter;
 import javax.xml.stream.XMLStreamException;
