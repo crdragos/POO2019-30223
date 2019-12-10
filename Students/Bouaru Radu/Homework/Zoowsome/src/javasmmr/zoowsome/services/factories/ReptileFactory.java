@@ -17,9 +17,9 @@ public class ReptileFactory extends SpeciesFactory {
 		Random randomizer = new Random();
 		int chooseName = randomizer.nextInt(reptileNames.length);
 		boolean chooseEggsLayed = randomizer.nextBoolean();
-		
-		double chooseMaintenanceCost = 8 * randomizer.nextDouble();
-		double chooseDangerPerc = randomizer.nextDouble();
+
+		double chooseMaintenanceCost = Math.floor(8 * randomizer.nextDouble() * 100) / 100;
+		double chooseDangerPerc = Math.floor(randomizer.nextDouble() * 100) / 100;
 
 		if (Constants.Animals.Reptiles.Dinosaur.equals(type)) {
 			return new Dinosaur(4, reptileNames[chooseName], chooseEggsLayed, chooseMaintenanceCost, chooseDangerPerc);

@@ -18,9 +18,9 @@ public class MammalFactory extends SpeciesFactory {
 		float chooseBodyTemperature = 100 * randomizer.nextFloat();
 		float chooseBodyHairPercent = 100 * randomizer.nextFloat();
 		
-		double chooseMaintenanceCost = 8 * randomizer.nextDouble();
-		double chooseDangerPerc = randomizer.nextDouble();
-
+		double chooseMaintenanceCost = Math.floor(8 * randomizer.nextDouble() * 100) / 100;
+		double chooseDangerPerc = Math.floor(randomizer.nextDouble() * 100) / 100;
+		
 		if (Constants.Animals.Mammals.Cow.equals(type)) {
 			return new Cow(4, mammalNames[chooseName], chooseBodyTemperature, chooseBodyHairPercent, chooseMaintenanceCost, chooseDangerPerc);
 		} else if (Constants.Animals.Mammals.Monkey.equals(type)) {

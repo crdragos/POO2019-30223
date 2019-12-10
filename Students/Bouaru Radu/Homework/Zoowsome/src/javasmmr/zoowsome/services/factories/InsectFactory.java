@@ -21,9 +21,9 @@ public class InsectFactory extends SpeciesFactory {
 		boolean chooseFlightState = randomizer.nextBoolean();
 		boolean chooseDangerState = randomizer.nextBoolean();
 		
-		double chooseMaintenanceCost = 8 * randomizer.nextDouble();
-		double chooseDangerPerc = randomizer.nextDouble();
-
+		double chooseMaintenanceCost = Math.floor(8 * randomizer.nextDouble() * 100) / 100;
+		double chooseDangerPerc = Math.floor(randomizer.nextDouble() * 100) / 100;
+		
 		if (Constants.Animals.Insects.Mantis.equals(type)) {
 			return new Mantis(4, insectNames[chooseName], chooseFlightState, chooseDangerState, chooseMaintenanceCost, chooseDangerPerc);
 		} else if (Constants.Animals.Insects.SpiderMan.equals(type)) {

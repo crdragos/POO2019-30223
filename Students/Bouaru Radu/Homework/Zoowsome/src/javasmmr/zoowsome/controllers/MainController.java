@@ -1,7 +1,6 @@
 package javasmmr.zoowsome.controllers;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.Random;
 
 import javasmmr.zoowsome.models.animals.Animal;
@@ -177,23 +176,20 @@ public class MainController {
 			}
 		}
 
-		/*
-		 * for (int i = 0; i < mammalCounter; i++)
-		 * 
-		 * if (myMammals[i].isTakenCareOf() == true)
-		 * System.out.println("It has been taken care of animal #" + i + ", " +
-		 * myMammals[i].getName()); else
-		 * System.out.println("It has NOT been taken care of animal #" + i + ", " +
-		 * myMammals[i].getName());
-		 * 
-		 * 
-		 * System.out.println();
-		 * 
-		 * for (int i = 0; i < myCaretakers.length; i++) if (myCaretakers[i].isDead() ==
-		 * true) System.out.println("Oh no! " + myCaretakers[i].getName() +
-		 * " is dead!"); else System.out.println(myCaretakers[i].getName() +
-		 * " is still alive.");
-		 */
+		for (int i = 0; i < mammalCounter; i++)
+
+			if (myMammals[i].isTakenCareOf() == true)
+				System.out.println("It has been taken care of animal #" + i + ", " + myMammals[i].getName());
+			else
+				System.out.println("It has NOT been taken care of animal #" + i + ", " + myMammals[i].getName());
+
+		System.out.println();
+
+		for (int i = 0; i < myCaretakers.length; i++)
+			if (myCaretakers[i].isDead() == true)
+				System.out.println("Oh no! " + myCaretakers[i].getName() + " is dead!");
+			else
+				System.out.println(myCaretakers[i].getName() + " is still alive.");
 
 		AnimalRepository AnimalRepository = new AnimalRepository();
 		ArrayList<Animal> animalsToSave = new ArrayList<Animal>();

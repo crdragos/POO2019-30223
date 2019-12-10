@@ -26,7 +26,6 @@ import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
 import javasmmr.zoowsome.models.interfaces.XML_Parsable;
-import javasmmr.zoowsome.services.factories.Constants;
 
 public abstract class EntityRepository <T extends XML_Parsable>{
 	private final String xmlFilename;
@@ -73,7 +72,7 @@ public abstract class EntityRepository <T extends XML_Parsable>{
 
 		doc.getDocumentElement().normalize();
 
-		NodeList nodeList = doc.getElementsByTagName(Constants.XML_TAGS.ANIMAL);
+		NodeList nodeList = doc.getElementsByTagName(this.entityTag);
 
 		for (int i = 0; i < nodeList.getLength(); i++) {
 			Node node = nodeList.item(i);

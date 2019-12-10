@@ -21,18 +21,21 @@ public class AquaticFactory extends SpeciesFactory {
 		int chooseName = randomizer.nextInt(aquaticNames.length);
 		int chooseAverageSwimDepth = randomizer.nextInt(7000);
 
-		double chooseMaintenanceCost = 8 * randomizer.nextDouble();
-		double chooseDangerPerc = randomizer.nextDouble();
+		double chooseMaintenanceCost = Math.floor(8 * randomizer.nextDouble() * 100) / 100;
+		double chooseDangerPerc = Math.floor(randomizer.nextDouble() * 100) / 100;
 
 		Aquatic.waterType waterType[] = { Aquatic.waterType.freshwater, Aquatic.waterType.saltwater };
 		int chooseWaterType = randomizer.nextInt(2);
 
 		if (Constants.Animals.Aquatics.MantaRay.equals(type)) {
-			return new MantaRay(0, aquaticNames[chooseName], chooseAverageSwimDepth, waterType[chooseWaterType], chooseMaintenanceCost, chooseDangerPerc);
+			return new MantaRay(0, aquaticNames[chooseName], chooseAverageSwimDepth, waterType[chooseWaterType],
+					chooseMaintenanceCost, chooseDangerPerc);
 		} else if (Constants.Animals.Aquatics.Salmon.equals(type)) {
-			return new Salmon(0, aquaticNames[chooseName], chooseAverageSwimDepth, waterType[chooseWaterType], chooseMaintenanceCost, chooseDangerPerc);
+			return new Salmon(0, aquaticNames[chooseName], chooseAverageSwimDepth, waterType[chooseWaterType],
+					chooseMaintenanceCost, chooseDangerPerc);
 		} else if (Constants.Animals.Aquatics.Whale.equals(type)) {
-			return new Whale(0, aquaticNames[chooseName], chooseAverageSwimDepth, waterType[chooseWaterType], chooseMaintenanceCost, chooseDangerPerc);
+			return new Whale(0, aquaticNames[chooseName], chooseAverageSwimDepth, waterType[chooseWaterType],
+					chooseMaintenanceCost, chooseDangerPerc);
 		} else
 			throw new Exception("Invalid animal exception!");
 	}

@@ -53,10 +53,16 @@ public final class Constants {
 			public static final String TCO_NO_TIME = "NO_TIME";
 		}
 	}
-	public static final class XML_TAGS{
+
+	public static final class XML_TAGS {
 		public static final String ANIMAL = "ANIMAL";
 		public static final String EMPLOYEE = "EMPLOYEE";
 		public static final String DISCRIMINANT = "DISCRIMINANT";
+	}
+
+	public static final class FRAMES {
+		public static final int HEIGHT = 900;
+		public static final int WIDTH = 1250;
 	}
 
 }

@@ -21,9 +21,10 @@ public class BirdFactory extends SpeciesFactory {
 		boolean chooseMigratingState = randomizer.nextBoolean();
 		int chooseFlightAltitude = randomizer.nextInt(10000);
 		
-		double chooseMaintenanceCost = 8 * randomizer.nextDouble();
-		double chooseDangerPerc = randomizer.nextDouble();
-
+		double chooseMaintenanceCost = Math.floor(8 * randomizer.nextDouble() * 100) / 100;
+		double chooseDangerPerc = Math.floor(randomizer.nextDouble() * 100) / 100;
+		
+		
 		if (Constants.Animals.Birds.Gryphon.equals(type)) {
 			return new Gryphon(4, birdNames[chooseName], chooseMigratingState, chooseFlightAltitude, chooseMaintenanceCost, chooseDangerPerc);
 		} else if (Constants.Animals.Birds.Peacock.equals(type)) {
