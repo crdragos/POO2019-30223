@@ -4,16 +4,19 @@ import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.FlowLayout;
 import java.awt.Font;
+import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.GregorianCalendar;
-import java.util.logging.Logger;
+import java.util.TimeZone;
 
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
+import javax.swing.JMenuItem;
 import javax.swing.JPanel;
+import javax.swing.JPopupMenu;
 import javax.swing.border.EmptyBorder;
 
 import javasmmr.zoowsome.services.factories.Constants.FRAMES;
@@ -22,8 +25,10 @@ import javasmmr.zoowsome.views.utilities.FrameStack;
 public abstract class ZooFrame extends JFrame implements ZooFrame_I {
 
 	private static final long serialVersionUID = 1L;
-	protected JPanel contentPanel;
+	protected static JPanel contentPanel;
 
+	private String timeZone = "Etc/GMT-2"; //Fusurile orare sunt invers in Java - wtf
+	
 	public ZooFrame(String title) {
 		FrameStack.getInstance().push(this);
 		setTitle(title);
@@ -45,6 +50,7 @@ public abstract class ZooFrame extends JFrame implements ZooFrame_I {
 					try {
 						Calendar newCalendar = new GregorianCalendar();
 						SimpleDateFormat sdf = new SimpleDateFormat("HH:mm:ss");
+						sdf.setTimeZone(TimeZone.getTimeZone(timeZone));
 						clockLabel.setText(sdf.format(newCalendar.getTime()));
 						sleep(1000);
 					} catch (InterruptedException e) {
@@ -69,6 +75,7 @@ public abstract class ZooFrame extends JFrame implements ZooFrame_I {
 		JLabel clockLabel = new JLabel();
 		clockLabel.setFont(new Font("Arial", Font.BOLD, 20));
 		clockLabel.setForeground(new Color(168, 248, 180));
+		clockLabel.setComponentPopupMenu(new TimezonesPopUp());
 		getTime(clockLabel);
 		buttonPanel.add(clockLabel);
 
@@ -77,6 +84,32 @@ public abstract class ZooFrame extends JFrame implements ZooFrame_I {
 
 	@Override
 	public void goBack() {
-
 	}
+
+	private class TimezonesPopUp extends JPopupMenu {
+
+		private static final long serialVersionUID = 1L;
+
+		public TimezonesPopUp() {
+			for (int i = 12; i >= -12; i--) {
+				String menuText;
+				if (i < 0)
+					menuText = "Etc/GMT" + i;
+				else
+					menuText = "Etc/GMT+" + i;
+				JMenuItem menuItem = new JMenuItem(menuText);
+				menuItem.addActionListener(al);
+				add(menuItem);
+			}
+		}
+
+		ActionListener al = new ActionListener() {
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				JMenuItem menuItem = (JMenuItem) e.getSource();
+				timeZone = menuItem.getText();
+			}
+		};
+	}
+
 }

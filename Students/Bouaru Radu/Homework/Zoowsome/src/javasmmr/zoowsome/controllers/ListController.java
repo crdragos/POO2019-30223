@@ -1,10 +1,10 @@
 package javasmmr.zoowsome.controllers;
 
-import javasmmr.zoowsome.views.ZooFrame;
+import javasmmr.zoowsome.views.ListFrame;
 
 public class ListController extends AbstractController{
 
-	public ListController(ZooFrame frame, boolean hasBackButton) {
+	public ListController(ListFrame frame, boolean hasBackButton) {
 		super(frame, hasBackButton);
 	}
 
