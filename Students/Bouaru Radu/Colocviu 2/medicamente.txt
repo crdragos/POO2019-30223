@@ -1,0 +1,4 @@
+"Medicament1","Firma1", 30.0, 10.0
+"Medicament2","Firma1", 40.0, 15.5
+"Medicament3","Firma2", 55.0, 20.5
+"Medicament4","Firma1", 60.0, 61.25
