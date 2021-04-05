@@ -1,0 +1,4 @@
+"Nume1","Prenume1", 30,'M'
+"Nume2","Prenume2", 31,'M'
+"Nume3","Prenume3", 19,'F'
+"Nume4","Prenume4", 20,'F'
